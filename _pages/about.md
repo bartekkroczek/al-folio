@@ -2,17 +2,18 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: PhD Student. <a href="http://cognes.psychologia.uj.edu.pl/">Interational PhD programme in Cognitive Neuroscience</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <a href="https://filozofia.uj.edu.pl/zaklad-kognitywistyki">Krakow CogSci Lab</a>
+    <p>Department of Cognitive Science</p>
+    <p>Jagiellonian University</p>
 
-news: true
+
+news: false
 social: true
 ---
 
