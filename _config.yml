@@ -46,10 +46,9 @@ publons_id: # your ID on Publons
 research_gate_profile: Bartlomiej_Kroczek # your profile on ResearchGate
 blogger_url: # your blogger URL
 
-contact_note: >
-  If you want to contact me, please email.
-
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+contact_note: > 
+ Feel free to mail me at bartek.kroczek@doctoral.uj.edu.com
+google_analytics: UA-171393964-1 # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog

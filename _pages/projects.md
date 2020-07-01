@@ -1,12 +1,15 @@
 ---
 layout: page
-title: teaching
-permalink: /teaching/
-description: Materials for my classes
+title: vitae
+permalink: /CV/
+# description: My work expirience
 nav: true
 ---
 
-<div class="projects grid">
+
+<a href="https://www.researchgate.net/profile/Bartlomiej_Kroczek/experience">Click for my work expirience</a>
+
+<!-- <div class="projects grid">
 
   {% assign sorted_projects = site.projects | sort: "importance" %}
   {% for project in sorted_projects %}
@@ -44,4 +47,4 @@ nav: true
   </div>
 {% endfor %}
 
-</div>
+</div> -->
