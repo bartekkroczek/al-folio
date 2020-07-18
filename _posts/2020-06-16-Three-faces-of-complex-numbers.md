@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: Three faces of complex numbers
+title: Five faces of complex numbers
 description: A brief preparation for understanding the Fourier Transform
 date: 2020-06-16
 
