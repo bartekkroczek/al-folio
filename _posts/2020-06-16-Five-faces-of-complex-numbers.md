@@ -11,7 +11,7 @@ authors:
       name: Krakow CogSci Lab, Jagiellonian University
 ---
 
-## Little Disclaimer
+## Disclaimer
 
 The purpose of this article is to briefly and intuitively recall the most important properties of complex numbers. These concepts are necessary to understand the Fourier transform, which I deal with in my other posts. However, please note that intuitiveness is more important to me than puritanism, which may lead to shortcuts uncomfortable for theoretical mathematicians.
 
@@ -49,7 +49,7 @@ $$ (a + bi) + (c + di) = (a +c) + (b+d)i$$
 
 $$(a+bi) \cdot (c+di) = ac + ibc + aid + ibid  = ac + i (bc + ad) + i^2 bd = (ac-bd) + i(bc+ad)$$
 
-$$ \frac{a+bi}{c+di}  = \frac{ac + bd}{c^2 + d^2} + i \frac{bc-ad}{c^2 + d^2}, c^2 + b^2 \not = 0$$
+$$ \frac{a+bi}{c+di}  = \frac{ac + bd}{c^2 + d^2} + i \frac{bc-ad}{c^2 + d^2}, c^2 + d^2 \not = 0$$
 
 What's more interesting, each complex number (and it's inverse) has root in the form:
 
@@ -87,7 +87,7 @@ From this perspective $ i^2 = -1$ makes perfect sense.
 Any other multiplication is just a rotation in point $(0,0)$ by some angle (described in the next paragraph) and rescaling (stretch or shorten) of the vector. 
 
 ### Polar coordinates 
-The rotation angle announced above is usually written as $\theta$, and the scaling factor is called $r$.
+The rotation angle announced above is written as $\theta$, and the scaling factor is called $r$.
 <div class="l-body">
 <img src="/assets/img/2020-06-16/ang.svg" width="100%">
 </div>
@@ -198,4 +198,4 @@ $$ z = a + bi = r cos (\theta) + i r sin (\theta) = r \big ( cos (\theta) + i si
 
 ## Conclusion
 
-Personally, I believe that understanding the relationship between the different forms of complex numbers is crucial to understanding the technical details behind the **Fourier Transform**. If you are interested in this topic, check out my post on this topic.
+I believe that understanding the relationship between the different forms of complex numbers is crucial to understanding the technical details behind the **Fourier Transform**. If you are interested in this topic, check out my next post.
