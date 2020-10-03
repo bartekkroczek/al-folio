@@ -34,6 +34,10 @@ Cognitive Neuroscience. Psychophysics. Visual Attention.
 `October 2019 - now`
 __PhD in Cognitive Neuroscience, Jagiellonian University, Kraków, Poland.__
 
+
+`October 2020 - now`
+__MS in Astrophysics and Cosmology, Jagiellonian University, Kraków, Poland.__
+
 `2015 - 2019`
 __MS in Computer Science (Modeling, Cognition and Control), Jagiellonian University, Kraków, Poland.__
 
@@ -63,6 +67,10 @@ Founded by National Science Centre grant awarded to dr. M. Senderecka "Electroph
 ## Publications
 
 ### Journals
+
+`2020`
+**Galton and Spearman revisited: Can single general  discrimination ability drive performance on diverse sensorimotor tasks and explain intelligence?**
+Jastrzębski, J, Kroczek, B, & Chuderski, A *Journal of Experimental Psychology: General*
 
 `2020`
 **Metacognitive experience on Raven’s matrices versusinsight problems** Chuderski, A, Jastrzębski, J, Kroczek, B, Kucwaj, H, and Ociepka, M *Metacognition and Learning*  

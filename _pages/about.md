@@ -13,7 +13,7 @@ profile:
     <p>Jagiellonian University</p>
 
 
-news: false
+news: true
 social: true
 ---
 
