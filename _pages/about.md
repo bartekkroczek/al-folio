@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <a href="https://filozofia.uj.edu.pl/zaklad-kognitywistyki">Krakow CogSci Lab</a>
+    <a href="https://cogscigroup.kognitywistyka.uj.edu.pl/">Krakow CogSci Lab</a>
     <p>Department of Cognitive Science</p>
     <p>Jagiellonian University</p>
 

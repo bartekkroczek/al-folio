@@ -10,7 +10,7 @@ nav: true
 Data Scientist. PhD Student. 
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">Krakow CogSciLab</a>
+<a href="https://cogscigroup.kognitywistyka.uj.edu.pl/">Krakow CogSciLab</a>
 | <a href="http://2019.cognes.psychologia.uj.edu.pl/">Interational PhD programme in Cognitive Neuroscience.</a>
 </div>
 
@@ -33,10 +33,6 @@ Cognitive Neuroscience. Psychophysics. Visual Attention.
 
 `October 2019 - now`
 __PhD in Cognitive Neuroscience, Jagiellonian University, Kraków, Poland.__
-
-
-`October 2020 - now`
-__MS in Astrophysics and Cosmology, Jagiellonian University, Kraków, Poland.__
 
 `2015 - 2019`
 __MS in Computer Science (Modeling, Cognition and Control), Jagiellonian University, Kraków, Poland.__
