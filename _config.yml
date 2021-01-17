@@ -2,7 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Bartek Kroczek
+title: blank # the website title (if blank, full name will be used instead)
+first_name: Bartek
+middle_name: 
+last_name: Kroczek
 email: bartek.kroczek@doctoral.uj.edu.pl
 description: > # this means to ignore newlines until "url:"
   Personal blog of PhD student in a field of Cognitive Neuroscience.
@@ -11,8 +14,9 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 url:  # the base hostname & protocol for your site
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
+impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -20,14 +24,16 @@ last_updated: true # set to true if you want to display last updated in the foot
 
 navbar_fixed: true
 footer_fixed: true
+
+# Dimensions
+max_width: 800px
+
 # TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
 # Open Graph
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-# To achieve this, change serve_og_meta to true and then provide the URL of the
-# preview image as the value of og_image.
 serve_og_meta: false # Include Open Graph meta tags in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
@@ -49,13 +55,14 @@ blogger_url: # your blogger URL
 contact_note: > 
  Feel free to mail me at bartek.kroczek@doctoral.uj.edu.pl
 google_analytics: UA-171393964-1 # out your google-analytics code
+panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Blog # your blog must have a name for it to show up in the nav bar
-blog_description:
+blog_name: Blog  # your blog must have a name for it to show up in the nav bar
+blog_description: 
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -107,8 +114,10 @@ exclude: [vendor]
 # Plug-ins
 plugins:
   - jekyll-email-protect
+  - jekyll-github-metadata
   - jekyll-paginate-v2
   - jekyll/scholar
+  - jekyll-twitter-plugin
   - jemoji
   # - bootstrap
   # - material-sass
@@ -144,12 +153,13 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:  true
-enable_katex:             true
-enable_mansory:           true
-enable_progressbar:       true
-enable_tooltips:          false
-show_social_icons:        false
+enable_google_analytics:    true
+enable_panelbear_analytics: false
+enable_mansory:             true
+enable_math:                true
+enable_tooltips:            false
+enable_darkmode:            true
+show_social_icons:          false
 
 # -----------------------------------------------------------------------------
 # Library versions
