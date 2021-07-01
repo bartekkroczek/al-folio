@@ -64,9 +64,21 @@ Founded by National Science Centre grant awarded to dr. M. Senderecka "Electroph
 
 ### Journals
 
+`2021`
+**Socially induced negative emotions elicit neural activity in the mentalizing network in a subsequent inhibitory task**
+Senderecka, M, Matyjek, M, Kroczek, B, & Ociepka, M, *Neuroscience* 
+
+`2021`
+**Why People Err on Multiple-choice Analogical Reasoning Tests?**
+Kroczek, B & Chuderski, A, *Conference Paper: Annual Meeting of the Cognitive Science Society* 
+
+`2021`
+**Socially induced negative affective knowledge modulates early face perception but not gaze cueing of attention**
+Matyjek, M, Kroczek, B, & Senderecka, M, *Psychophysiology* 
+
 `2020`
-**Galton and Spearman revisited: Can single general  discrimination ability drive performance on diverse sensorimotor tasks and explain intelligence?**
-Jastrzębski, J, Kroczek, B, & Chuderski, A *Journal of Experimental Psychology: General*
+**Galton and Spearman revisited: Can single general discrimination ability drive performance on diverse sensorimotor tasks and explain intelligence?**
+Jastrzębski, J, Kroczek, B, & Chuderski, *A Journal of Experimental Psychology: General*
 
 `2020`
 **Metacognitive experience on Raven’s matrices versusinsight problems** Chuderski, A, Jastrzębski, J, Kroczek, B, Kucwaj, H, and Ociepka, M *Metacognition and Learning*  
