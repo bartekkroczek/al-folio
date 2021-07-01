@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Bartek  Kroczek | Transduction of physical stimuli into neural activity.</title>
+<meta name="description" content="Personal blog of PhD student in a field of Cognitive Neuroscience.
+">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/blog/2020/Stimuli-to-neuronal-activity/">
+
+<!-- JQuery -->
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+<!-- Theming-->
+
+  <script src="/assets/js/theme.js"></script>
+  <!-- Load DarkMode JS -->
+<script src="/assets/js/dark_mode.js"></script>
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171393964-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-171393964-1');
+  </script>
+
+
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="/">
+       <span class="font-weight-bold">Bartek</span>   Kroczek
+      </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/blog/">
+              blog
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/CV/">
+                vitae
+                
+              </a>
+          </li>
+          
+          
+          
+            <div class = "toggle-container">
+              <a id = "light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+              </a>
+            </div>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Transduction of physical stimuli into neural activity.</h1>
+    <p class="post-meta">April 22, 2020</p>
+  </header>
+
+  <article class="post-content">
+    <p>Examples, cells and receptors, common themes.</p>
+
+<h1 id="introduction">Introduction</h1>
+<h2 id="what-is-transduction">What is transduction?</h2>
+<p>Transduction is a process of conversion of physical or chemical stimuli into an electrical impulse.</p>
+
+<div class="l-body">
+  <img class="img-fluid rounded z-depth-0" src="/assets/img/2019-04-22/1.jpg" />
+</div>
+
+<p>This process can be treated as a “magic box” converting <strong>input</strong> (physical or chemical phenomena) into <strong>output</strong> (neuronal electric activity) through <strong>a series of molecular events</strong>. We can think of such a system as an <strong><a href="https://en.wikipedia.org/wiki/Analog-to-digital_converter">AD</a> converter</strong>.
+So, before we dive into biochemical machinery, let’s discuss what can come in and out of such a system.</p>
+
+<h2 id="inputs">Inputs</h2>
+
+<h3 id="electromagnetic-wave">Electromagnetic wave</h3>
+<p>The current scientific theory holds that <a href="https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality">all particles exhibit a wave nature</a> and vice versa.
+This Wave-particle duality means, that in some sense photon, and an electromagnetic wave is just a different representation of this same unity. This fact determines how photons can differ from each other because the electromagnetic wave can be described by its <a href="https://byjus.com/physics/characteristics-of-em-waves/">amplitude, frequency, and phase</a>.</p>
+
+<p>But how these quantities are related to visible light?</p>
+<blockquote>
+  <p><a href="https://physics.info/light/">Light is an electromagnetic wave that can be seen by the typical human.</a></p>
+</blockquote>
+
+<p><strong>“Can be seen”</strong> refers to the frequency of a wave. A typical human eye will respond to wavelengths from about <a href="https://isbnsearch.org/isbn/9788301138059">400 to 700 nanometers</a>. This corresponds to 405–790 THz. The exact frequency of a lightwave is <a href="https://physics.info/light/">related to its color</a>.</p>
+
+<p>Some colors (red, orange, yellow, green, blue, and violet) are described by only one frequency. They are called “monochromatic”. 
+Other, “polychromatic” colors are described by a bunch of frequencies.</p>
+
+<p>The amplitude of a light wave is <a href="https://physics.info/light/">related to its <strong>intensity</strong></a> which is a wave’s power density. This is an absolute value. Subjective light wave intensitive perceived by the average human eye is called <strong>brightness</strong>.</p>
+
+<h3 id="chemical-particles">Chemical Particles</h3>
+
+<p>Both Smell and taste are based (mostly) on sensations caused by chemicals. Fragrance particles are usually small (&gt;200<a href="https://en.wikipedia.org/wiki/Dalton_(unit)">Da</a>), volatile, and fat-soluble.  Humans distinguish only five flavors: sweet, salty, sour, bitter, and umami. However, the taste impression is also the structure and texture of the food, which draws mechano- and prioprio-receptors to work.</p>
+
+<h3 id="sound-pressure">Sound pressure</h3>
+
+<p>Sound waves are <strong>longitudinal</strong> which means that particles in a medium (eg. air) are rhythmically compressed and decompressed. It’s in contrast to <strong>transverse</strong> waves, where medium goes up and down (like waves on the water). Sound (unlike light) requires a medium, which affects the parameters of the wave itself.</p>
+
+<p>Wave frequency is described as <strong>Note</strong> (for example 261.625Hz is called “Middle C”) and is perceived by humans in a range of <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/Sound/earsens.html">20-20’000Hz</a>. Speech is in a range of <a href="https://isbnsearch.org/isbn/9788301138059">250-4000Hz</a> which corresponds to the highest frequency resolution area for a human ear.</p>
+
+<p>Amplitude(pressure) is rescaled and logarithmically transformed into <a href="https://en.wikipedia.org/wiki/Decibel">decibels</a>. The threshold of hearing is set as <strong>0dB</strong>. Values above <strong>130dB</strong> <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/Sound/earsens.html">cause pain</a>.</p>
+
+<h3 id="mechanical-and-thermal-forces">Mechanical and thermal forces</h3>
+<p><a href="https://www.ncbi.nlm.nih.gov/books/NBK21661/">Touch</a> is simply a mechanical pressure. Also, the concept of temperature is uncomplicated as well - it’s an average of kinetic energy amount owned by particles coming into contact with the skin.</p>
+
+<h2 id="output-neural-coding">Output (Neural coding)</h2>
+<p>The signals processed in the central nervous system are digital. The problem is how to encode the signal without losing relevant information.</p>
+
+<h3 id="static-and-dynamic-coding">Static and dynamic coding</h3>
+
+<p>Sensory fibers can be  <strong>slow</strong> and <strong>fast</strong> adapting.
+Slow adaptive receptors are responsible for the perception of a stimulus that lasts a long time, acting evenly until its completion. The time window in which the neuron is excited corresponds to the duration of the stimulus, and the frequency carries information about its intensity. In turn, fast adapting receptors carry information about the change in the intensity (or the fact of appearance) of the stimulus.</p>
+
+<h4 id="how-does-it-work">How does it work?</h4>
+
+<p>In this example from <a href="https://isbnsearch.org/isbn/9788301138059">here</a>, three types of slow and fast adapting mechanoreceptors are exposed to the same stimulus.</p>
+<ul>
+  <li><a href="https://medical-dictionary.thefreedictionary.com/Ruffini+corpuscle">Ruffini’s bodies</a> - a slowly adaptive receptor, respond with a frequency proportional to stimuli intensity.</li>
+  <li><a href="https://en.wikipedia.org/wiki/Tactile_corpuscle">The Meissner corpuscles</a> adapt quickly and react only when the stimulus changes, at the same time coding the speed of skin deformation.</li>
+  <li><a href="https://link.springer.com/chapter/10.1007%2F978-1-4615-8699-9_15">Pacini’s corpuscles</a> are synthesized the fastest, resulting in the very fact that the stimulus is accelerated.</li>
+</ul>
+
+<div class="l-body">
+  <img class="img-fluid rounded z-depth-0" src="/assets/img/2019-04-22/2.jpg" />
+</div>
+
+<h3 id="intensity-coding">Intensity coding</h3>
+
+<blockquote>
+  <p><a href="https://isbnsearch.org/isbn/9788301138059">The intensity of stimuli is related to an average frequency of action potential firing</a>.</p>
+</blockquote>
+
+<p>This relation is usually linear, but not always. For example, hearing hair mechanoreceptors have logarithmic characteristics that allow the reception of stimuli on a very wide scale.</p>
+
+<h3 id="population-coding">Population coding</h3>
+
+<p><strong>Frequency modulation</strong> is sometimes insufficient. Some information must be coded by the joint activities of many nerve cells. This is called <a href="https://en.wikipedia.org/wiki/Neural_coding#Population_coding">population coding</a>.</p>
+
+<h1 id="anatomy-and-biochemistry-of-senses">Anatomy and biochemistry of senses</h1>
+<p>It’s time to open the magic box.</p>
+
+<h2 id="somatosensory-system">Somatosensory system</h2>
+<p>Touch is detected by <strong>mechanoreceptors</strong> - modified axonal terminations - depolarized by a stimulus. 
+In Mechanoreceptors -under the influence of a stimulus- a change in the potential of the cell membrane occurs by increasing its permeability to one or several types of ions.</p>
+
+<div class="l-body">
+  <img class="img-fluid rounded z-depth-0" src="/assets/img/2019-04-22/3.jpg" />
+
+</div>
+
+<p><em>Picture from <a href="https://aibolita.com/nervous-diseases/46995-somatosensory-receptors-mechanoreceptors.html">here</a></em></p>
+
+<h3 id="mechanoreceptors">Mechanoreceptors</h3>
+
+<p>Mechanoreceptors are divided in two ways. The first division concerns the adaptation speed, so we have receptors that adapt quickly and slowly. The second division (into type I and II) concerns the location and reception area. Type I are surface receptors with a small perceptive field, they are mainly used for shape detection and examples of them are <strong>Meissner’s</strong>, and <strong>Merkel’s</strong> corpuscles. Type II receptors with large perceptive fields are found in deep skin layers. They react to skin stretching, and examples of them are <strong>Ruffini</strong> and <strong>Pacini</strong> corpuscles.</p>
+
+<h3 id="thermoreceptors">Thermoreceptors</h3>
+
+<p>Thermoreceptors are slow adaptive receptors, which makes them good detectors for rapid temperature changes, but bad thermometers. The spiking frequency of heat receptors increases with temperature. Similarly, cold receptors raise the operating frequency as the temperature decreases.</p>
+
+<h3 id="nociceptors">Nociceptors</h3>
+
+<p>There are two groups of <strong>nociceptors</strong>, i.e. pain receptors. First - a bare nerve ending, responsible for experiencing acute, prickly, well-localized pain typical for mechanical trauma. Second, <strong>polymodal nociceptors</strong> react to skin prickling, temperatures above 46°C, and chemicals released during tissue damage.</p>
+
+<h2 id="olfactory-system">Olfactory system</h2>
+
+<p>Olfactory signal transduction occurs in the <a href="https://en.wikipedia.org/wiki/Olfactory_epithelium">olfactory epithelium</a> located in the upper part of the nasal cavity. Receptor cell dendrites called <strong>olfactory cilia</strong> form subgroups contain from six to twelve units, protruding from the surface of the <strong>epithelial layer</strong>. Only in mammals, about 1’000 types of fragrance receptors have been identified. Each odor substance can interact with two to six different types of receptors, resulting in nearly 10’000 distinct smells.</p>
+
+<div class="l-body">
+  <img class="img-fluid rounded z-depth-0" src="/assets/img/2019-04-22/4.jpg" />
+
+</div>
+
+<p>Picture from <a href="http://www.angelfire.com/journal/ldps/EssentialOils.htm">here</a>.</p>
+
+<h3 id="smell-transduction">Smell Transduction</h3>
+
+<ol>
+  <li>The fragrance molecule becomes bound to the receptor.</li>
+  <li>Increase in cAMP concentration.</li>
+  <li>Opening of non-specific cyclic nucleotide-gated cationic channels.</li>
+  <li>Intense ion (Na, K, Ca) flow.</li>
+  <li>Depolarization of olfactory cilia on the dendrite of the olfactory receptor neuron.</li>
+  <li>Release of an action potential on the axon hillock.</li>
+  <li>A digitalized signal is transmitted through the olfactory nerve.</li>
+</ol>
+
+<div class="l-body">
+  <img class="img-fluid rounded z-depth-0" src="/assets/img/2019-04-22/5.jpg" />
+</div>
+
+<h2 id="gustatory-system">Gustatory system</h2>
+
+<p>The taste is processed on the tongue. More specifically, attention should be paid to <strong>lingual papillae</strong> in which there are <strong>taste buds</strong>. At their tops, there are <strong>flavor openings</strong> that direct the particles to <strong>microvilli</strong>, where taste transduction occurs.</p>
+
+<div class="l-body">
+  <img class="img-fluid rounded z-depth-0" src="/assets/img/2019-04-22/6.jpg" />
+
+</div>
+
+<p>Picture from <a href="http://www.doi.org/10.1016/j.pnsc.2008.06.012">here</a>.</p>
+
+<p>There are two categories of receptors. <strong>Metabotropic</strong> receptors are responsible for the impression of bitter, sweet, and umami.
+In contrast, <strong>ionotropic</strong> receptors correspond to the sour and salty taste.</p>
+
+<h3 id="transduction">Transduction</h3>
+
+<p><strong>Ionotropic</strong> receptors can directly depolarize the cell. Sour taste (Single proton) is detected by blocking of potassium channels which prevents potassium ions from flowing to the outside. In turn, sodium ions found in salty foods are directly caught by epithelial sodium channels.</p>
+
+<p>In <strong>metabotropic</strong> receptors depolarisation is indirect, it occurs through signaling cascade. Taste molecules are bound to matching receptors which triggers G-proteins to stimulate the release of phospholipase-C. This enzyme breaks <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3496677/">PIP2</a> particle bonds into secondary messenger IP3 and DAG. IP3 binds to calcium channels in <strong>the endoplasmatic reticulum</strong> which releases calcium into the cytosol. This fact triggers a couple of different mechanisms leading to cell depolarization.</p>
+
+<div class="l-body">
+  <img class="img-fluid rounded z-depth-0" src="/assets/img/2019-04-22/7.jpg" />
+</div>
+
+<p>When the cell begins to depolarize, it releases glutamate, which stimulates the afferent nerve.</p>
+
+<h2 id="visual-system">Visual system</h2>
+
+<p>The eye consists of three layers.</p>
+<ol>
+  <li><strong>The Sclera</strong>, which holds the shape of the eye</li>
+  <li>A <strong>choroid</strong> that prevents light from reflecting inside the eyeball</li>
+  <li>The inner layer is <strong>the retina</strong>, which is a component that receives visual stimuli.</li>
+</ol>
+
+<div class="l-body">
+  <img class="img-fluid rounded z-depth-0" src="/assets/img/2019-04-22/8.jpg" />
+
+</div>
+
+<p><em>Picture from <a href="https://doi.org/10.1017/9781108565011.064">here</a></em></p>
+
+<h3 id="retina">Retina</h3>
+
+<p>The retina is light-sensitive, the innermost layer of the eye. It consists of five types of neurons arranged in sub-layers.</p>
+
+<p>The light must go through the entire thickness of (transparent) retina to reach <strong>photoreceptors</strong>, which are capable of <strong>visual phototransduction</strong>.</p>
+
+<div class="l-body">
+  <img class="img-fluid rounded z-depth-0" src="/assets/img/2019-04-22/9.jpg" />
+
+</div>
+
+<p><em>Picture from <a href="https://www.doi.org/10.1128/JVI.69.11.7087-7098.1995">here</a></em></p>
+
+<p>There are two types of photoreceptors - rods and cones. Rod cells are approximately 20 times more numerous than the cones. The rods are also much more sensitive (about 1000 times) and are used in low-light condition, in a phenomenon called <strong>scotopic vision</strong>.</p>
+
+<p>Cones are divided into three types differing in wavelength to which they are most sensitive. Usually (but imprecisely) we call them according to the colors that correspond to their highest sensitivity, i.e. blue, green, and red.  Color vision requires a comparison of the relative strength of outputs from all types of cones.</p>
+
+<div class="l-body">
+  <img class="img-fluid rounded z-depth-0" src="/assets/img/2019-04-22/10.jpg" />
+
+</div>
+
+<p><em>Picture from <a href="https://anthonysaba.wikispaces.com/">here</a></em></p>
+
+<p>The key element in the construction of the photoreceptor is a disk containing photopigment called <strong>rhodopsin</strong>.</p>
+
+<p><strong>Rhodopsin</strong> is a photosensitive dye consisting of the protein - opsin, which covalently binds to the cofactor 11-cis-retinal (retinene). Each type of photoreceptor contains its opsin type. The degradation of rhodopsin underlies the phototransduction process.</p>
+
+<h3 id="phototransduction">Phototransduction</h3>
+
+<ol>
+  <li>The photon causes photoisomerization of the retinal from “cis” to “trans” form</li>
+  <li>A series of conformational changes in rhodopsin</li>
+  <li>Rhodopsin binds to the G-protein, transducin</li>
+  <li>The above process is accompanied by the exchange of 5’-guanosine diphosphate for 5’-guazinodiphosphate</li>
+  <li>GTP-related transducin activates phosphodiesterase</li>
+  <li>cGMP hydrolysis to 5`-GMP</li>
+  <li>Reduction of cGMP concentration in the photoreceptor</li>
+  <li>Closing cationic channels</li>
+</ol>
+
+<div class="l-body">
+  <img class="img-fluid rounded z-depth-0" src="/assets/img/2019-04-22/11.jpg" />
+</div>
+
+<p>A single photon activates about 500 transducin molecules, closes hundreds of cationic channels, blocks the flow of a million sodium cations, and as a result, causes hyperpolarizations of around 1mV which is enormous reinforcement.</p>
+
+<p>Finally, Metarodopsin II under the influence of vitamin A returns to the 11-cis form, joins back with opsin into a rhodopsin molecule ready for disintegration - this is the so-called <strong>vision cycle</strong>.</p>
+
+<h2 id="auditory-system">Auditory system</h2>
+<p>The auditory canal is a passive antenna that transmits vibrations to the <strong>eardrum</strong>. The eardrum vibrations are transmitted through three auditory ossicles (malleus, incus, and stapes) into <strong>perilymph</strong> and then to the <strong>cochlea window</strong>.</p>
+
+<div class="l-body">
+  <img class="img-fluid rounded z-depth-0" src="/assets/img/2019-04-22/12.jpg" />
+
+</div>
+<p><em>Picture from <a href="https://www.nidcd.nih.gov/health/otosclerosis">here</a></em></p>
+
+<p>The cochlea is a spiral-shaped, 3.5 cm long cavity in the bony labyrinth. Sound pressure propagates through the cochlea, affecting <strong>Corti’s organ</strong> and setting <strong>basilar membrane</strong> in motion. This membrane is characterized by a constant change in width, mass, and stiffness, which results in “frequency sorting.” A place (on the basilar membrane) with maximum vibrations corresponds to the frequency of a soundwave.</p>
+
+<div class="l-body">
+  <img class="img-fluid rounded z-depth-0" src="/assets/img/2019-04-22/13.jpg" />
+      
+</div>
+<p>Picture from <a href="https://commons.wikimedia.org/wiki/File:Cochlea.svg">here</a></p>
+
+<p>The Organ of Corti is built by two types of <strong>hair cells</strong> (named “hair” for their appearance): <strong>inner hair cells</strong> and <strong>outer hair cells</strong>. The main task of outer hair cells is to increase fluid movement in the cochlea. This phenomenon is called <strong>cochlear amplification</strong>, and increase hearing sensitivity.</p>
+
+<p>Fluid pressure on the <strong>internal hair cells</strong> opens mechanosensitive ion channels and enables potassium ions from the endolymph to enter the hair cell. It heads to depolarisation which causes the release of glutamate which stimulates afferent nerve fibers.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>I started by comparing the transduction process to the operation principle of an analog-to-digital converter, but this was an oversimplification.</p>
+
+<p>First of all, most sensory impressions are multimodal. The taste impression is also affected by the smell, structure, or texture of the food. Music is not only what reaches the ear, but also vibrations perceptible on the skin.</p>
+
+<p>Moreover, transduction is not limited to simply transcoding the stimulus to digital form. In many cases, the logical processing of the stimulus begins long before the signal reaches the appropriate nerve for a given sense.</p>
+
+<p>The natural sciences teach that the need for over-ordering can make it difficult to understand processes that have been evolved, not designed.</p>
+
+<h1 id="references">References</h1>
+<ul>
+  <li>
+    <p><em>Sensory Transduction: How Our Senses Work</em> - YouTube. Retrieved June 30, 2020, from https://www.youtube.com/watch?v=pO2x4bsdK9w</p>
+  </li>
+  <li>
+    <p>Longstaff, A. (2000). Neuroscience. Garland Science.</p>
+  </li>
+</ul>
+
+
+  </article>
+
+  
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2021 Bartek  Kroczek.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+    
+    Last updated: July 01, 2021.
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+</html>
